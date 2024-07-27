@@ -4,17 +4,17 @@ import { View, StyleSheet, Text, SafeAreaView } from 'react-native';
 const Latihan4rfc = () => {
     const [MyBio] = useState({
         identity: {
-            npm: 222310005,
-            nama: "Dandi Hendika",
+            npm: 222310064,
+            nama: "Carlos Immanuel Tampubolon",
         },
         pendidikan: [
             { id: 3, sekolah: "Institut Bisnis dan Informatika Kesatuan" },
         ],
-        no_telpon: "088966727523",
-        email: "222310005@student.ibik.ac.id",
+        no_telpon: "081212345678",
+        email: "222310064@student.ibik.ac.id",
         jenis_kelamin: "Pria",
-        tinggi: 175,
-        berat: 70
+        tinggi: 180,
+        berat: 71
     });
 
     const pendidikanSekarang = MyBio.pendidikan.find((item) => item.id === 3);
