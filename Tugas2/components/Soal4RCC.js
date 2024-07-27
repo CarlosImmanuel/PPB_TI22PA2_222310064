@@ -7,17 +7,17 @@ class Latihan4rcc extends Component {
         this.state = {
             MyBio: {
                 identity: {
-                    npm: 222310005,
-                    name: "Dandi Hendika",
+                    npm: 222310064,
+                    name: "Carlos Immanuel Tampubolon",
                 },
                 education: [
                     { id: 3, school: "Institut Bisnis dan Informatika Kesatuan" },
                 ],
-                no_telpon: "08966727523",
-                email: "222310005@student.ibik.ac.id",
+                no_telpon: "081212345678",
+                email: "222310064@student.ibik.ac.id",
                 gender: "Pria",
-                tall_body: 175,
-                weight_body: 70
+                tall_body: 180,
+                weight_body: 71
             }
         }
     }
